@@ -1,0 +1,119 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif; /*задать Шрифт*/
+
+}
+
+header {
+	background: url("img/first-bg.jpg") no-repeat center top / cover;  /*логотип*/
+	height: 600px; /*высота*/
+	
+
+}
+
+.clearfix:after {  
+	content:'';      /*Правило отступление от контейнеров*/
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box; /*границы*/
+	
+}
+
+
+
+.conteiner {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px; /*отступ внешне*/
+	float: left;   /*смещение лого влево*/
+	width: 100px;
+	height: 100px;
+	border-radius: 50px; 
+}
+
+
+
+nav {
+	float: right; /*правее*/
+	margin-top: 45px;   /*от верха отступить*/
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+
+}
+
+.menu li a {
+	color: #fff; /*цвет строки*/
+	text-decoration: none; /*отменить подчеркивание*/
+	font-family: Verdana, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.a {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+h1 {
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.foto {
+	width: 325px;
+	height: 400px;
+	padding: 50px;  /*отступ внутри*/
+	
+}
+
+
+.resume {
+	font-size: 40px;
+	padding-bottom: 20px;
+
+}
+
+
+.list {
+  margin-top: 50px; 
+}
+
+#portfolio {
+	background: #D3D3D3;
+
+}
+
+.f {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.contact {
+	font-size: 40px;
+	padding-top: 50px;
+}
