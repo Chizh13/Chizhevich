@@ -1,0 +1,320 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Lato, sans-serif;
+
+}
+
+header {
+	
+	height: 98px;
+	background: #2D303A;
+	
+}
+
+
+
+div {
+	box-sizing: border-box; 
+	width: 100%;
+}
+
+
+
+.conteiner {
+	width: 1022px;
+	margin: 0 auto;
+	display: flex; 
+	flex-direction: row;
+
+	border: 1px solid blue;
+	
+}
+
+.clearfix:after {  
+	content:'';    
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+
+
+.singolo {
+	margin-top: 43px;
+	padding: 0;
+	margin-left: 40px;
+
+
+
+	
+	float: left;
+	display: flex;
+
+	font-family: Lato, sans-serif;
+	font-style: normal;
+	font-size: 24.29px;
+	line-height: 6px;
+	
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #FFFFFF;
+	
+
+}
+
+span {
+	font-family: Lato, sans-serif;
+	font-style: normal;
+	color: red;
+}
+
+nav {
+	float: right;
+
+	margin-top: 43px;
+	
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	margin-right: 10px;
+
+	
+}
+
+.menu li {
+	float: left;
+	display: flex;
+	
+	margin-right: 27px;
+	
+
+	
+
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none; 
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	font-size: 11.65px;
+	font-weight: bold;
+}
+
+
+
+
+.nav__link {
+	color: #fff;
+	text-decoration: none;
+	
+	transition: opacity 0.2s linear; 
+	
+	
+}
+
+
+.nav__link:hover {
+	color: #F06C64;
+	opacity: 1;
+}
+
+
+
+
+
+.slider {
+	height: 600px;
+	background: #F06C64;
+	
+}
+
+.chev2 {
+	
+	width: 17px;
+	height: 28px;
+
+	margin-top: 280px;
+	margin-left: 43px;
+	
+	
+}
+
+
+
+
+.iphonev {
+	
+
+	width: 217px;
+	height: 460px;
+	
+	margin-left: 54px;
+	margin-top: 54px;
+
+	
+}
+
+.iphoneg {
+	
+
+	width: 460px;
+	height: 217px;
+	
+
+	margin-left: 97px;
+	margin-top: 175px;
+	
+	
+}
+
+.chev{
+	width: 17px;
+	height: 28px;
+
+	margin-top: 280px;
+	margin-left: 82px;
+	
+	
+}
+
+.services {
+
+
+	background: #F2F2F2;
+	height: 500px;  
+
+	
+}
+
+.our__services {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+
+}
+
+h1 {
+
+
+	width: 500px;
+	
+	font-size: 29.6188px;
+	line-height: 18px;
+	
+
+	margin-top: 67px;
+	padding: 0;
+	margin-left: 41px;
+	color: #666D89;
+
+	
+}
+
+.text {
+	
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #767E9E;
+
+	margin-top: 10px;
+	padding-top: 0px;
+	margin-left: 41px;
+	border: 1px solid blue;
+	
+	
+}
+
+.block {
+	display: flex;
+	flex-wrap: wrap;
+	
+	text-align: left;
+	margin-top: 56px;
+	border: 1px solid blue;
+
+}
+
+.pen {
+	display: flex;
+	
+	
+	margin-left: 40px;
+	width: 300px;
+	height: 87px;
+	border: 1px solid red;
+}
+
+.column {
+	flex-direction: column;
+
+	margin-left: 25px;
+}
+.bulb {
+	display: flex;
+	
+	
+	width: 300px;
+	height: 87px;
+	margin-left: 10px;
+}
+.heart {
+	display: flex;
+	
+	width: 300px;
+	height: 87px;
+	margin-left: 10px;
+}
+
+.phone {
+	display: flex;
+	
+	width: 300px;
+	height: 87px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.bable {
+	display: flex;
+	
+	width: 300px;
+	height: 87px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.star {
+	display: flex;
+	
+	width: 350px;
+	height: 87px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+h2 {
+	color: #666D89;
+	font-size: 17.7px;
+	line-height: 18px;
+	text-align: left;
+	margin-top: 0;
+}
+.services__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: left;
+	line-height: 1.5;
+	color: #767E9E;
+
+
+
+}
